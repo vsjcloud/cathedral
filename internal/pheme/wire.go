@@ -6,7 +6,7 @@ import (
 	"github.com/google/wire"
 	"go.uber.org/zap"
 
-	"cathedral/shared/config"
+	"cathedral/internal/config"
 )
 
 func resolveDependencies(cfg *config.Cathedral, logger *zap.Logger) (*Cathedral, error) {

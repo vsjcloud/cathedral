@@ -14,7 +14,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"cathedral/shared/config"
+	"cathedral/internal/config"
 )
 
 type Cathedral struct {

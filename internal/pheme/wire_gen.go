@@ -6,8 +6,9 @@
 package pheme
 
 import (
-	"cathedral/shared/config"
 	"go.uber.org/zap"
+
+	"cathedral/internal/config"
 )
 
 // Injectors from wire.go:

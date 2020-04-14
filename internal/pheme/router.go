@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-chi/chi"
 
-	"cathedral/pheme/middleware"
+	"cathedral/internal/pheme/middleware"
 )
 
 func (c *Cathedral) buildRouter() chi.Router {

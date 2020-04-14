@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"cathedral/pheme"
-	"cathedral/shared/config"
+	"cathedral/internal/config"
+	"cathedral/internal/pheme"
 )
 
 func main() {
